@@ -1,0 +1,23 @@
+@import '../base/variables';
+
+.header{
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bgcolor-primary;
+}
+
+.header__logo{
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+}
+.header__logo img{
+    max-width: 100%;
+}

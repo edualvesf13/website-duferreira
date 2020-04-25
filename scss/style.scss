@@ -1,7 +1,9 @@
 /*VARIABLES*/
 @import './base/variables';
 
-/*Texte*/
-body{
-    background-color: $bgcolor-secondary;
-}
+/*RESET CSS*/
+@import './base/reset';
+
+/*HEADER*/
+@import './layout/header';
+@import './modules/menu';
