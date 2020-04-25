@@ -1,3 +1,4 @@
+/*MENU*/
 .header__nav--wrapper{
     width: 56px;
     height: 56px;
@@ -22,33 +23,33 @@
     top: 24px;
     left: 3px;
     transition: all .3s ease-in-out;
-}
-.header__nav--wrapper span::before{
-    content: '';
-    width: 40px;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -10px;
-    transition: all .3s ease-in-out;
-}
-.header__nav--wrapper span::after{
-    content: '';
-    width: 40px;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    bottom: 10px;
-    transition: all .3s ease-in-out;
+        &::before{
+            content: '';
+            width: 40px;
+            height: 3px;
+            background-color: #fff;
+            position: absolute;
+            bottom: -10px;
+            transition: all .3s ease-in-out;
+        };
+        &::after{
+            content: '';
+            width: 40px;
+            height: 3px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 10px;
+            transition: all .3s ease-in-out;
+        }
 }
 #check:checked ~ label span{
     background-color: transparent;
-}
-#check:checked ~ label span::before{
-    transform: translate(0px, -10px) rotate(45deg);
-    transition: all .3s ease-in-out;
-}
-#check:checked ~ label span::after{
-    transform: translate(0px, 10px) rotate(-45deg);
-    transition: all .3s ease-in-out;
+        &::before{
+            transform: translate(0px, -10px) rotate(45deg);
+            transition: all .3s ease-in-out;
+        };
+        &::after{
+            transform: translate(0px, 10px) rotate(-45deg);
+            transition: all .3s ease-in-out;
+        }
 }
