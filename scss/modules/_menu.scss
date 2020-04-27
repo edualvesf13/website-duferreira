@@ -1,9 +1,5 @@
 /*MENU*/
-.header__nav--wrapper{
-    width: 56px;
-    height: 56px;
-    position: relative;
-}
+
 #check{
     position: absolute;
     display: none;
@@ -52,4 +48,34 @@
             transform: translate(0px, 10px) rotate(-45deg);
             transition: all .3s ease-in-out;
         }
+}
+.header__nav--offcanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    color: #ffffff;
+    transform: translateY(-100%);
+    transition: all .5s ease-in-out;
+        & ul{
+            list-style: none;
+            width: 100%;
+            margin-top: 100px;
+                & li{
+                    border:{
+                        bottom: solid rgba(0,0,0,0.5) 1px;
+                    };
+                };
+                    & a{
+                        color: #fff;
+                        padding: 15px;
+                        display: block;
+                        font-size: 1.5rem;
+                    }
+        };
+
+}
+.is-active{
+    transform: none;
 }
