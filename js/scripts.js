@@ -7,3 +7,18 @@ function toggleOffCanvas(){
 }
 
 menuHamburguer.addEventListener('change', toggleOffCanvas)
+
+/*Animation Paragraph Home*/
+const text = document.querySelector('.js-write')
+
+function typeWriter(element){
+    const textArray = element.innerHTML.split('')
+    element.innerHTML = ''
+    textArray.forEach( (letter, indice) => {
+        setTimeout(function(){
+            element.innerHTML += letter
+        }, 80 * indice)
+    } )    
+}
+
+typeWriter(text)

@@ -1,0 +1,8 @@
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    $paddings: 0.9375rem;
+    padding-left: $paddings;
+    padding-right: $paddings;
+}
