@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+@mixin title--header($size: 2rem, $color: #fff, $uppercase: uppercase, $align: center, $bgcolor: $bgcolor-secondary, $margin: auto 0, $padding: 15px, $align-self: center, $radius: 15px) {
+    font-size: $size;
+    color: $color;
+    text-transform: $uppercase;
+    text-align: $align;
+    background-color: $bgcolor;
+    margin: $margin;
+    padding: $padding;
+    align-self: $align-self;
+    border-radius: $radius;
+}
