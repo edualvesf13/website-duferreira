@@ -137,7 +137,7 @@ p {
   width: 100vw;
   height: 100vh;
   margin-bottom: 30px;
-  background: url(../img/img-home.jpg);
+  background: url(../img/bg1.jpg);
   background-size: cover;
   background-position: right;
   display: flex;
@@ -159,7 +159,7 @@ p {
   letter-spacing: -1px;
   line-height: 2; }
 
-#home p::after {
+#home span::after {
   content: '|';
   font-weight: 500;
   color: #fff;
