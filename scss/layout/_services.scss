@@ -1,0 +1,88 @@
+@import '../modules/titulos';
+@import '../base/variables';
+
+#services{
+    padding: 30px 0;
+    margin-bottom: 30px;
+    width: 100vw;
+}
+#services .container{
+    display: flex;
+    flex-direction: column;
+}
+#services h1{
+    @include title--header;
+    margin-bottom: 15px;
+}
+.services__card--wrapper{
+    max-width: 500px;
+    height: 320px;
+    margin: 15px 0;
+    position: relative;
+}
+.services__card--container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+}
+.services__card--wrapper:hover .services__card--container{
+    transform: rotateY(180deg);
+}
+.services__card--contentfront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    backface-visibility: hidden;
+    text-align: center;
+    border-radius: 30px;
+}
+.services__card--contentfront span{
+    display: block;
+    font-size: 6rem;
+    color: #fff;
+}
+.services__card--contentfront h2, .services__card--contentback h2{
+    display: block;
+    margin: 15px 0;
+    color: #fff;
+}
+.services__card--contentfront p, .services__card--contentback p{
+    color: #fff;
+}
+.services__card--contentback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    transform: rotateY(180deg);
+    text-align: center;
+}
+.card__bg--blue{    
+    background: #487c9d;
+}
+.card__bg--blue-gradient{    
+    background: linear-gradient(#0f2f42, #487c9d);
+}
+.card__bg--orange{
+    background: #db7c3d;
+}
+.card__bg--orange-gradient{
+    background: linear-gradient(#79370c, #db7c3d);
+}
+.card__bg--green{
+    background: #89af4a;
+}
+.card__bg--green-gradient{
+    background: linear-gradient(#364e10, #89af4a);
+}
+.card__bg--red{
+    background: #e15639;
+}
+.card__bg--red-gradient{
+    background: linear-gradient(#742010, #e15639);
+}
