@@ -5,7 +5,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
   font-family: 'Rubik', sans-serif;
   color: #4d4d4d; }
 
@@ -343,3 +345,100 @@ p {
 
 .card__bg--red-gradient {
   background: linear-gradient(#742010, #e15639); }
+
+/*COLORS*/
+/*COLORS*/
+#contact {
+  padding: 30px 0;
+  margin-bottom: 30px;
+  width: 100vw; }
+  #contact h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #e79523;
+    margin: auto 0;
+    padding: 15px;
+    align-self: center;
+    border-radius: 15px;
+    margin-bottom: 15px; }
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.social-media {
+  color: #fff;
+  margin-top: 30px;
+  padding: 30px;
+  background: url(../img/textura2.png);
+  text-align: left; }
+  .social-media h2 {
+    text-transform: uppercase;
+    margin: 15px 0; }
+  .social-media ul {
+    list-style: none; }
+    .social-media ul li a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      font-size: 1.5rem; }
+
+.social-media__icons {
+  display: inline-block;
+  margin-right: 10px; }
+
+.form-contact {
+  border-color: rgba(0, 0, 0, 0.95);
+  border-style: solid;
+  border-size: 1px;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: left; }
+
+.form-contact h2 {
+  text-transform: uppercase;
+  margin: 15px 0; }
+
+.form-contact button {
+  border: none;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 15px 20px;
+  background-color: #e79523;
+  text-transform: uppercase;
+  color: #fff; }
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  position: relative; }
+  .input-field input {
+    outline: none;
+    padding: 10px 0 5px 0;
+    border-style: none;
+    border-bottom-size: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #4d4d4d; }
+    .input-field input:focus {
+      border-bottom: 2px solid #e79523;
+      transition: all .2s ease; }
+  .input-field label {
+    transition: all .5s ease; }
+
+.input-field input:focus ~ label {
+  color: #e79523; }
+
+.input-field textarea {
+  padding: 10px;
+  border-style: none;
+  border-bottom-size: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #4d4d4d; }
+  .input-field textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #e79523;
+    transition: all .2s ease; }

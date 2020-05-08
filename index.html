@@ -6,8 +6,9 @@
     <title>DuFerreira</title>
     <link rel="stylesheet" href="./style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <!--Import Google Icon Font-->
+    <!--Import Icons Fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9fe285a038.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -144,6 +145,40 @@
     <section id="contact">
         <div class="container">
             <h1>Contato</h1>
+            <p>Entre em contato comigo através das Redes Sociais ou do formulário abaixo:</p>
+            <div class="social-media">
+                <h2>Conecte-se comigo</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/o_eduardoalves/" target="blank"> <span class="social-media__icons"><i class="fab fa-instagram"></i></span> Instagram </a></li>
+                    <li><a href="https://www.linkedin.com/in/eduferreira13/" target="blank"> <span class="social-media__icons"><i class="fab fa-linkedin"></i></span> Linkedin </a></li>
+                    <li><a href="https://github.com/edualvesf13" target="blank"> <span class="social-media__icons"><i class="fab fa-github-square"></i></span> GitHub </a></li>
+                </ul>
+                <h2> Contato </h2>
+                <p> <span><i class="far fa-envelope"></i></span> edualvesf13@gmail.com </p>
+                <p> <span><i class="fab fa-whatsapp-square"></i></span> (21) 99732-3846 </p>
+            </div>
+            <div class="form-contact">
+                <h2>Fale comigo</h2>
+                <p>Trabalhos freelancer, conteúdos ou parcerias?</p>
+                <form action="enviar-email.php" method="POST">
+                    <div class="input-field">
+                        <input type="text" name="nome" id="nome">
+                        <label for="nome">Seu nome</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" name="email" id="email">
+                        <label for="email">Seu email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="assunto" id="assunto">
+                        <label for="assunto">Assunto</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
     </section>
     <script src="./js/scripts.js"></script>
