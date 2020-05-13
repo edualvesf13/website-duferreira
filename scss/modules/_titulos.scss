@@ -1,6 +1,6 @@
 @import '../base/variables';
 
-@mixin title--header($size: 2rem, $color: #fff, $uppercase: uppercase, $align: center, $bgcolor: $bgcolor-secondary, $margin: auto 0, $padding: 15px, $align-self: center, $radius: 15px) {
+@mixin title--header($size: 2rem, $color: #fff, $uppercase: uppercase, $align: center, $bgcolor: $bgcolor-secondary, $margin: 0 auto, $padding: 15px, $width: fit-content, $align-self: center, $radius: 15px) {
     font-size: $size;
     color: $color;
     text-transform: $uppercase;
@@ -8,6 +8,7 @@
     background-color: $bgcolor;
     margin: $margin;
     padding: $padding;
+    width: $width;
     align-self: $align-self;
     border-radius: $radius;
 }

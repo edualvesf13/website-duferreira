@@ -196,8 +196,9 @@ p {
   text-transform: uppercase;
   text-align: center;
   background-color: #e79523;
-  margin: auto 0;
+  margin: 0 auto;
   padding: 15px;
+  width: fit-content;
   align-self: center;
   border-radius: 15px; }
 
@@ -220,8 +221,9 @@ p {
   text-transform: uppercase;
   text-align: center;
   background-color: #e79523;
-  margin: auto 0;
+  margin: 0 auto;
   padding: 15px;
+  width: fit-content;
   align-self: center;
   border-radius: 15px; }
 
@@ -270,8 +272,9 @@ p {
   text-transform: uppercase;
   text-align: center;
   background-color: #e79523;
-  margin: auto 0;
+  margin: 0 auto;
   padding: 15px;
+  width: fit-content;
   align-self: center;
   border-radius: 15px;
   margin-bottom: 15px; }
@@ -360,8 +363,9 @@ p {
     text-transform: uppercase;
     text-align: center;
     background-color: #e79523;
-    margin: auto 0;
+    margin: 0 auto;
     padding: 15px;
+    width: fit-content;
     align-self: center;
     border-radius: 15px;
     margin-bottom: 15px; }
