@@ -4,6 +4,9 @@
 /*RESET CSS*/
 @import './base/reset';
 
+/*MODULES*/
+@import './base/predefine';
+
 /*LAYOUT*/
 @import './layout/general';
 @import './layout/header';

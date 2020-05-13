@@ -7,10 +7,6 @@
     width: 100vw;
     background: url(../img/textura2.png);
 }
-#portfolio .container{
-    display: flex;
-    flex-direction: column;
-}
 #portfolio h1{
     @include title--header;
 }

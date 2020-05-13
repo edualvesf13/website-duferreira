@@ -24,6 +24,20 @@ p {
   word-spacing: 3px;
   font-weight: 300; }
 
+/*MODULES*/
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+
+@media only screen and (max-width: 601px) {
+  .container {
+    width: 85%; } }
+
+@media (min-width: 602px) and (max-width: 993px) {
+  .container {
+    width: 75%; } }
+
 /*LAYOUT*/
 .container {
   max-width: 1200px;
@@ -176,10 +190,6 @@ p {
   margin-bottom: 30px;
   width: 100vw; }
 
-#about .container {
-  display: flex;
-  flex-direction: column; }
-
 #about h1 {
   font-size: 2rem;
   color: #fff;
@@ -203,10 +213,6 @@ p {
   margin-bottom: 30px;
   width: 100vw;
   background: url(../img/textura2.png); }
-
-#portfolio .container {
-  display: flex;
-  flex-direction: column; }
 
 #portfolio h1 {
   font-size: 2rem;
@@ -257,10 +263,6 @@ p {
   padding: 30px 0;
   margin-bottom: 30px;
   width: 100vw; }
-
-#services .container {
-  display: flex;
-  flex-direction: column; }
 
 #services h1 {
   font-size: 2rem;
@@ -363,11 +365,6 @@ p {
     align-self: center;
     border-radius: 15px;
     margin-bottom: 15px; }
-
-#contact .container {
-  display: flex;
-  flex-direction: column;
-  text-align: center; }
 
 .social-media {
   color: #fff;

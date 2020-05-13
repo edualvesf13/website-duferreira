@@ -5,11 +5,6 @@
     margin-bottom: 30px;
     width: 100vw;
 }
-
-#about .container{
-    display: flex;
-    flex-direction: column;
-}
 #about h1{
     @include title--header;
 }

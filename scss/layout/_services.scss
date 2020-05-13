@@ -6,10 +6,6 @@
     margin-bottom: 30px;
     width: 100vw;
 }
-#services .container{
-    display: flex;
-    flex-direction: column;
-}
 #services h1{
     @include title--header;
     margin-bottom: 15px;
