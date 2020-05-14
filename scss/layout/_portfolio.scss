@@ -10,8 +10,12 @@
 #portfolio h1{
     @include title--header;
 }
+.portfolio__card--wrapper{
+    display: block;
+    margin-top: 20px;
+}
 .portfolio__card{
-    max-width: 600px;
+    max-width: 350px;
     height:450px;
     margin-top: 20px;
     background-color: #fff;
@@ -41,4 +45,17 @@
 }
 #portfolio p{
     font-size: 1.5rem;
+}
+
+@media (min-width: 602px) and (max-width: 993px){
+    .portfolio__card--wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio__card{
+        flex: 1 1 270px;
+        margin:10px;
+    }  
 }

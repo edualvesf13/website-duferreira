@@ -36,7 +36,7 @@ p {
 
 @media (min-width: 602px) and (max-width: 993px) {
   .container {
-    width: 75%; } }
+    width: 80%; } }
 
 /*LAYOUT*/
 .container {
@@ -227,8 +227,12 @@ p {
   align-self: center;
   border-radius: 15px; }
 
+.portfolio__card--wrapper {
+  display: block;
+  margin-top: 20px; }
+
 .portfolio__card {
-  max-width: 600px;
+  max-width: 350px;
   height: 450px;
   margin-top: 20px;
   background-color: #fff;
@@ -258,6 +262,16 @@ p {
 
 #portfolio p {
   font-size: 1.5rem; }
+
+@media (min-width: 602px) and (max-width: 993px) {
+  .portfolio__card--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  .portfolio__card {
+    flex: 1 1 270px;
+    margin: 10px; } }
 
 /*COLORS*/
 /*COLORS*/
