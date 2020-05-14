@@ -10,10 +10,14 @@
     @include title--header;
     margin-bottom: 15px;
 }
-.services__card--wrapper{
-    max-width: 500px;
+.services__elements--wrapper{
+    display: block;
+    background-color: pink;
+}
+.services__card{
+    max-width: 400px;
     height: 320px;
-    margin: 15px 0;
+    margin: 15px auto;
     position: relative;
 }
 .services__card--container{
@@ -23,7 +27,7 @@
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
 }
-.services__card--wrapper:hover .services__card--container{
+.services__card:hover .services__card--container{
     transform: rotateY(180deg);
 }
 .services__card--contentfront{
@@ -81,4 +85,17 @@
 }
 .card__bg--red-gradient{
     background: linear-gradient(#742010, #e15639);
+}
+
+@media (min-width: 602px) and (max-width: 993px){
+    .services__elements--wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .services__card{
+        flex: 1 1 270px;
+        margin:10px;
+    }  
 }
