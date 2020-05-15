@@ -32,7 +32,7 @@ p {
 
 @media only screen and (max-width: 601px) {
   .container {
-    width: 85%; } }
+    width: 97%; } }
 
 @media (min-width: 602px) and (max-width: 993px) {
   .container {
@@ -294,8 +294,7 @@ p {
   margin-bottom: 15px; }
 
 .services__elements--wrapper {
-  display: block;
-  background-color: pink; }
+  display: block; }
 
 .services__card {
   max-width: 400px;
@@ -462,11 +461,15 @@ p {
   color: #e79523; }
 
 .input-field textarea {
-  padding: 10px;
+  padding: 10px 10px 0 0;
+  font-size: 1.5rem;
   border-style: none;
   border-bottom-size: 2px;
   border-bottom-style: solid;
   border-bottom-color: #4d4d4d; }
+  .input-field textarea::placeholder {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.7); }
   .input-field textarea:focus {
     outline: none;
     border-bottom: 2px solid #e79523;

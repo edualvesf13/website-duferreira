@@ -87,7 +87,8 @@
     color: $bgcolor-secondary;
 }
 .input-field textarea{
-    padding: 10px;
+    padding: 10px 10px 0 0;
+    font-size: 1.5rem;
     border: {
         style: none;
         bottom: {
@@ -96,9 +97,13 @@
             color: $textcolor-primary;
         };
     };
+        &::placeholder{
+            font-size: 1.1rem;
+            color: rgba($color: #000, $alpha: 0.7);
+        };
         &:focus{
             outline: none;
             border-bottom: 2px solid $bgcolor-secondary;
             transition: all .2s ease;
-        }
+        };
 }
