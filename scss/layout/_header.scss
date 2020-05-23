@@ -17,10 +17,17 @@
 .header__logo{
     width: 56px;
     height: 56px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 .header__logo img{
     max-width: 100%;
+    display: block;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.header__logo span{
+    color: #fff;
 }
 .header__nav--wrapper{
     width: 56px;
