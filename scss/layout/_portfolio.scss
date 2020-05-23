@@ -6,9 +6,10 @@
     margin-bottom: 30px;
     width: 100vw;
     background: url(../img/textura2.png);
-}
-#portfolio h1{
-    @include title--header;
+        & h1{
+            @include title--header;
+            margin-bottom: 15px;
+        }
 }
 .portfolio__card--wrapper{
     display: block;
