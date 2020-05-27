@@ -89,6 +89,10 @@
                 margin: 0;
                 padding: 0;
                 justify-content: space-between;
+                    & li:hover{
+                        outline: 4px solid $bgcolor-secondary;
+                        transition: .1s linear;
+                    }
             }
     }
 }

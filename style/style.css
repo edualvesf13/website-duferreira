@@ -25,6 +25,7 @@ p {
   font-weight: 300; }
 
 /*MODULES*/
+/*COLORS*/
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -173,7 +174,10 @@ p {
       display: flex;
       margin: 0;
       padding: 0;
-      justify-content: space-between; } }
+      justify-content: space-between; }
+      .header__nav--offcanvas ul li:hover {
+        outline: 4px solid #e79523;
+        transition: .1s linear; } }
 
 /*COLORS*/
 @keyframes blinkTrace {
@@ -215,6 +219,13 @@ p {
   margin-left: 5px;
   opacity: 1;
   animation: blinkTrace .75s infinite; }
+
+@media (min-width: 1000px) {
+  #home h1 {
+    font-size: 4rem; }
+  #home span {
+    font-size: 2rem;
+    letter-spacing: 1px; } }
 
 /*COLORS*/
 /*COLORS*/

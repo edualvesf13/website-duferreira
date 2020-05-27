@@ -1,0 +1,151 @@
+[33mcommit 573fce5a7eb2acfc1f49ffde68b0fe2c1e501245[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed May 27 14:14:52 2020 -0300
+
+    Header refactoring. And optimization for devices with a resolution greater than 1024px.
+
+[33mcommit fe09de6fc4d0157b4bed7aba225659923435681b[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 466340a f4f1608
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat May 23 19:16:19 2020 -0300
+
+    Merge branch 'master' of https://github.com/edualvesf13/website-duferreira
+
+[33mcommit 466340a508ea72ea56e99ddbd6d5f2f21c1786b2[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat May 23 19:00:57 2020 -0300
+
+    Change of #contact background.
+
+[33mcommit 460e6d3e4cbc2378bd7cfb2729e4d0120ae51111[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat May 23 18:13:26 2020 -0300
+
+    Changing the #home background to fixed.
+
+[33mcommit a1745e7a638009b1619b78d0c26e2c65e02f851e[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat May 23 18:09:21 2020 -0300
+
+    Header's Mundaça, profile photo was added.
+
+[33mcommit f4f1608b4b7f8803e0622e87f1460027d1f521bd[m
+Author: Eduardo A. Ferreira <edualvesf13@gmail.com>
+Date:   Thu May 21 17:32:47 2020 -0300
+
+    Create README.md
+
+[33mcommit 6fe42492b0b53c71c83c1afc2346389747892f3b[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Fri May 15 17:22:38 2020 -0300
+
+    Refactoring: Changing the .container size to 96% on the mobile breakpoint.
+
+[33mcommit 2464541062fd96f07c3423167561ccad7ce2927c[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Thu May 14 17:55:59 2020 -0300
+
+    Responsive of the services section using flexbox.
+
+[33mcommit bc81bf76af51feaab94de196b4d896852d9a44a2[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Thu May 14 17:18:04 2020 -0300
+
+    Responsive of the portfolio section using flexbox.
+
+[33mcommit b032583607e619d067d409caf541f01bc433ce79[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed May 13 13:14:42 2020 -0300
+
+    Width .container altered
+
+[33mcommit ee32a26d1b25c7da1a5e9b52e037585b2629fec6[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed May 13 13:00:32 2020 -0300
+
+    @mixin title--header resolved
+
+[33mcommit 749ef4f952fb653f1032c10c11bfbbd68c423590[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed May 13 11:38:19 2020 -0300
+
+    Refactoring # 01: Creation of the _predefine file. This file will contain the standard styling of some elements.
+    Refactoring # 02: Configure the .container class with independent formatting.
+
+[33mcommit 429b2880959fec9266446944088eb76d79d67b16[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Thu May 7 23:08:16 2020 -0300
+
+    Development of html and css of the Contact section.
+
+[33mcommit a5b07bce00fd8eac6de59baeed0acfa554c654cb[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed May 6 00:04:22 2020 -0300
+
+    Development of the Portfolio and Services sections.
+
+[33mcommit 71762a060bf0c3a20015ae820b16d94109bb3cb4[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Thu Apr 30 13:00:35 2020 -0300
+
+    Implementation of the smooth scroll script.
+
+[33mcommit 434a5909bbaa47062cf01bcfc28da51626cce5a7[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Wed Apr 29 18:57:11 2020 -0300
+
+    Development of the #about section.
+
+[33mcommit be0c44a65ce4745133305761a2b9a2c6ffbf4248[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Tue Apr 28 02:49:14 2020 -0300
+
+    Change of position absolut for fixed in the header
+
+[33mcommit 2f273aeec3415ea717a4b1c76082ae4133e315f5[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Tue Apr 28 02:33:00 2020 -0300
+
+    Finalization of the home.
+
+[33mcommit 6b2c5f1f95e1e9ce9daa08f94f131304aaccbd94[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Mon Apr 27 15:36:30 2020 -0300
+
+    OffCanvas Mobile Menu Development.
+
+[33mcommit 91c29f4ee5a0d520f6297cb96112e3ec46bd9745[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat Apr 25 06:39:52 2020 -0300
+
+    Refactoring the scss of the _menu file.
+
+[33mcommit e47543b6d9c9d3332a8491480136c1e4f0cfb857[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat Apr 25 06:25:14 2020 -0300
+
+    Implementation of the Header container and hamburger menu.
+
+[33mcommit 948bc403252b2cc33c2f72ff0a3973b121cd8ef3[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Sat Apr 25 05:19:51 2020 -0300
+
+    Creation of some color variables.
+
+[33mcommit 47528bb8d2446f80d34482da534ee7640e843014[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Fri Apr 24 18:42:17 2020 -0300
+
+    Creation of the main .scss files.
+
+[33mcommit 5545ec7839d832a36fea07c04e0d55ffe8197b3a[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Fri Apr 24 18:37:25 2020 -0300
+
+    For better understanding, the sass folder for scss was renamed.
+
+[33mcommit b7496e8afdc17a1658c29862c4199d4480fbaf2c[m
+Author: Eduardo Ferreira <edualvesf13@gmail.com>
+Date:   Fri Apr 24 18:27:12 2020 -0300
+
+    Definition of SMACSS as a methodology for standardizing the directory structure and creating the main folders.
