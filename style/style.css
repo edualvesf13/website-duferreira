@@ -464,6 +464,8 @@ p {
       padding: 10px;
       color: #fff;
       font-size: 1.5rem; }
+    .social-media ul li a:hover {
+      color: #e79523; }
 
 .social-media__icons {
   display: inline-block;
@@ -524,3 +526,11 @@ p {
     outline: none;
     border-bottom: 2px solid #e79523;
     transition: all .2s ease; }
+
+@media (min-width: 1000px) {
+  .contact__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    background: url(../img/textura2.png); }
+  .form-contact {
+    margin-top: 0px; } }

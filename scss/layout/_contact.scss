@@ -33,7 +33,10 @@
                         padding: 10px;
                         color: #fff;
                         font-size: 1.5rem;
-                    }
+                    };
+                        & li a:hover{
+                            color: $bgcolor-secondary;
+                        }
         };
 }
 .social-media__icons{
@@ -109,4 +112,14 @@
             border-bottom: 2px solid $bgcolor-secondary;
             transition: all .2s ease;
         };
+}
+@media (min-width: 1000px){
+    .contact__wrapper{
+        flex-direction: row;
+        justify-content: space-between;
+        background: url(../img/textura2.png);
+    }
+    .form-contact{
+        margin-top: 0px;
+    }
 }
