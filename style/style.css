@@ -55,16 +55,19 @@ p {
 /*COLORS*/
 .header {
   width: 100vw;
-  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   padding: 15px 15px;
+  background-color: #000; }
+
+.header__wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.95); }
+  align-items: center; }
 
 .header__logo {
   width: 56px;
@@ -86,7 +89,12 @@ p {
   height: 56px;
   position: relative; }
 
+@media (min-width: 1000px) {
+  .header__nav--wrapper {
+    display: none; } }
+
 /*MENU*/
+/*COLORS*/
 #check {
   position: absolute;
   display: none; }
@@ -147,14 +155,25 @@ p {
     margin-top: 100px; }
     .header__nav--offcanvas ul li {
       border-bottom: solid rgba(0, 0, 0, 0.5) 1px; }
-    .header__nav--offcanvas ul a {
-      color: #fff;
-      padding: 15px;
-      display: block;
-      font-size: 1.5rem; }
+  .header__nav--offcanvas a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    font-size: 1.5rem; }
 
 .is-active {
   transform: none; }
+
+@media (min-width: 1000px) {
+  .header__nav--offcanvas {
+    width: 650px;
+    position: relative;
+    transform: none; }
+    .header__nav--offcanvas ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      justify-content: space-between; } }
 
 /*COLORS*/
 @keyframes blinkTrace {
@@ -170,7 +189,6 @@ p {
   background: url(../img/bg1.jpg);
   background-size: cover;
   background-position: right;
-  background-attachment: fixed;
   display: flex;
   align-items: center;
   text-align: center; }
@@ -251,7 +269,8 @@ p {
   margin-top: 20px;
   background-color: #fff;
   border: 1px solid #4d4d4d;
-  padding: 10px; }
+  padding: 10px;
+  margin: 0 auto; }
 
 .portfolio__card:hover {
   outline: 3px solid #e79523;

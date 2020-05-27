@@ -2,18 +2,20 @@
 
 .header{
     width: 100vw;
-    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     padding: 15px 15px;
+    background-color: #000;
+}
+.header__wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $bgcolor-primary;
 }
-
 .header__logo{
     width: 56px;
     height: 56px;
@@ -33,4 +35,10 @@
     width: 56px;
     height: 56px;
     position: relative;
+}
+
+@media (min-width: 1000px){
+    .header__nav--wrapper{
+        display: none;
+    }
 }

@@ -1,4 +1,5 @@
 /*MENU*/
+@import '../base/variables';
 
 #check{
     position: absolute;
@@ -54,7 +55,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background-color: rgba($color: #000000, $alpha: 0.9);
+    background-color: rgba($color: #000000, $alpha: .9);
     color: #ffffff;
     transform: translateY(-100%);
     transition: all .5s ease-in-out;
@@ -63,8 +64,7 @@
             width: 100%;
             margin-top: 100px;
                 & li{
-                    border:{
-                        bottom: solid rgba(0,0,0,0.5) 1px;
+                    border-bottom: solid rgba(0,0,0,0.5) 1px;
                     };
                 };
                     & a{
@@ -73,9 +73,22 @@
                         display: block;
                         font-size: 1.5rem;
                     }
-        };
 
 }
 .is-active{
     transform: none;
+}
+
+@media (min-width: 1000px){
+    .header__nav--offcanvas{
+        width: 650px;
+        position: relative;
+        transform: none;
+            & ul{
+                display: flex;
+                margin: 0;
+                padding: 0;
+                justify-content: space-between;
+            }
+    }
 }
