@@ -412,14 +412,15 @@ p {
 .card__bg--red-gradient {
   background: linear-gradient(#742010, #e15639); }
 
-@media (min-width: 602px) and (max-width: 993px) {
+@media (min-width: 602px) {
   .services__elements--wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
   .services__card {
-    flex: 1 1 270px;
+    max-width: 250px;
+    flex: 1 1 240px;
     margin: 10px; } }
 
 /*COLORS*/
