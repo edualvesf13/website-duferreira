@@ -36,6 +36,9 @@
 }
 
 @media (min-width: 1000px){
+    #home{
+        background-attachment: fixed;
+    }
     #home h1{
         font-size: 4rem;
     }

@@ -64,7 +64,7 @@ p {
   background-color: #000; }
 
 .header__wrapper {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -221,6 +221,8 @@ p {
   animation: blinkTrace .75s infinite; }
 
 @media (min-width: 1000px) {
+  #home {
+    background-attachment: fixed; }
   #home h1 {
     font-size: 4rem; }
   #home span {
