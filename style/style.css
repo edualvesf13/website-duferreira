@@ -236,13 +236,20 @@ p {
     font-size: 4rem; }
   #home span {
     font-size: 2rem;
-    letter-spacing: 1px; } }
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 0px 30px; } }
 
 /*COLORS*/
 /*COLORS*/
 #about {
   margin-bottom: 30px;
   width: 100vw; }
+
+#about .container {
+  padding: 0px 150px;
+  margin-top: 100px;
+  margin-bottom: 150px; }
 
 #about h1 {
   font-size: 2rem;
