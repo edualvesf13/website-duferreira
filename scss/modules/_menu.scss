@@ -81,17 +81,26 @@
 
 @media (min-width: 1000px){
     .header__nav--offcanvas{
-        width: 650px;
+        width: auto;
         position: relative;
+        background-color: transparent;
         transform: none;
             & ul{
                 display: flex;
                 margin: 0;
                 padding: 0;
                 justify-content: space-between;
-                    & li:hover{
-                        outline: 4px solid $bgcolor-secondary;
-                        transition: .1s linear;
+                    & li{
+                        border-bottom: none;
+                            & a{
+                                font-size: 1.2rem;
+                                text-transform: uppercase;
+                                font-weight: 400;
+                                &:hover{
+                                    color: $textcolor-secondary;
+                                    transition: .3s linear;
+                                    }
+                            }
                     }
             }
     }

@@ -91,6 +91,8 @@ p {
   position: relative; }
 
 @media (min-width: 1000px) {
+  .header {
+    background-color: rgba(0, 0, 0, 0.7); }
   .header__nav--wrapper {
     display: none; } }
 
@@ -167,17 +169,24 @@ p {
 
 @media (min-width: 1000px) {
   .header__nav--offcanvas {
-    width: 650px;
+    width: auto;
     position: relative;
+    background-color: transparent;
     transform: none; }
     .header__nav--offcanvas ul {
       display: flex;
       margin: 0;
       padding: 0;
       justify-content: space-between; }
-      .header__nav--offcanvas ul li:hover {
-        outline: 4px solid #e79523;
-        transition: .1s linear; } }
+      .header__nav--offcanvas ul li {
+        border-bottom: none; }
+        .header__nav--offcanvas ul li a {
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          font-weight: 400; }
+          .header__nav--offcanvas ul li a:hover {
+            color: #e79523;
+            transition: .3s linear; } }
 
 /*COLORS*/
 @keyframes blinkTrace {

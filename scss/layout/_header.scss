@@ -38,6 +38,9 @@
 }
 
 @media (min-width: 1000px){
+    .header{
+        background-color: rgba($color: #000000, $alpha: .7)
+    }
     .header__nav--wrapper{
         display: none;
     }

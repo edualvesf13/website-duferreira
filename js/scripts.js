@@ -17,7 +17,7 @@ function typeWriter(element){
     textArray.forEach( (letter, indice) => {
         setTimeout(function(){
             element.innerHTML += letter
-        }, 80 * indice)
+        }, 60 * indice)
     } )    
 }
 
