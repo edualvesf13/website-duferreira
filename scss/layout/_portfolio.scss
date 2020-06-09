@@ -3,8 +3,7 @@
 
 #portfolio{
     padding: 30px 0;
-    margin-bottom: 30px;
-    width: 100vw;
+    width: 100%;
     background: url(../img/textura2.png);
         & h1{
             @include title--header;
@@ -60,4 +59,9 @@
         flex: 1 1 270px;
         margin:10px;
     }  
+}
+@media(min-width: 1000px){
+    #portfolio .container{
+        padding: 50px 150px;
+    }
 }
