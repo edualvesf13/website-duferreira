@@ -195,7 +195,7 @@
                 <div class="form-contact">
                     <h2>Fale comigo</h2>
                     <p>Trabalhos freelancer, conteúdos ou parcerias?</p>
-                    <form action="enviar-email.php" method="POST">
+                    <form action="enviar-email.php" method="POST" id="form__Contact">
                         <div class="input-field">
                             <input type="text" name="name" id="name">
                             <label for="nome">Seu nome</label>
@@ -222,16 +222,16 @@
         </div>
     </section>
     <script src="./js/scripts.js"></script>
-    <?php        
-        if(isset($_GET['status'])):
-            if($_GET['status'] == 'sucesso'):
-            echo '<script> setTimeout(function(){ 
-                alert("Sua mensagem foi enviada! ")
-                }, 3500)  </script>';
-            else:    
-            echo '<script> alert("Erro ao enviar. ") </script>';
-            endif;
+<?php        
+    if(isset($_GET['status'])):
+        if($_GET['status'] == 'sucesso'):
+        echo '<script> setTimeout(function(){ 
+            alert("Sua mensagem foi enviada! ")
+            }, 3500)  </script>';
+        else:    
+        echo '<script> alert("Erro ao enviar. ") </script>';
         endif;
-    ?>
+    endif;
+?>
 </body>
 </html>

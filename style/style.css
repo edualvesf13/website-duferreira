@@ -47,7 +47,7 @@ p {
 
 /*LAYOUT*/
 .container {
-  max-width: 1200px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.9375rem;
@@ -64,7 +64,7 @@ p {
   background-color: #000; }
 
 .header__wrapper {
-  max-width: 1200px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -522,7 +522,8 @@ p {
   position: relative; }
   .input-field input {
     outline: none;
-    padding: 10px 0 5px 0;
+    padding: 10px 0 5px 5px;
+    border-radius: 20px;
     border-style: none;
     border-bottom-size: 1px;
     border-bottom-style: solid;
@@ -550,6 +551,12 @@ p {
     outline: none;
     border-bottom: 2px solid #e79523;
     transition: all .2s ease; }
+
+.form__input--error {
+  background: #e79523;
+  transition: background .4s ease; }
+  .form__input--error::placeholder {
+    color: red; }
 
 @media (min-width: 1000px) {
   #contact .container {

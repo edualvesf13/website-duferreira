@@ -72,3 +72,20 @@ function smoothScrollTo(endX, endY, duration) {
     }, 1000 / 60); // 60 fps
   };
 
+/* FORM VALIDATION */
+const formContact = document.getElementById('form__Contact')
+const inputsFields = formContact.querySelectorAll('.input-field')
+const btnSubmit = formContact.querySelector('button')
+
+btnSubmit.addEventListener('click', function(event){
+    inputsFields.forEach( inputField => {
+        const valueInput = inputField.childNodes[1].value
+        if(valueInput === ''){
+            event.preventDefault()
+
+            const itemAtual = inputField.childNodes[1]
+            itemAtual.classList.add('form__input--error')
+            itemAtual.focus()
+        }
+} )
+})
