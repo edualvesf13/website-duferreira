@@ -74,6 +74,18 @@
 
             <p>Criei este site para compartilhar informações com iniciantes e pessoas interessadas em tecnologia. Aqui você pode encontrar alguns recursos que me ajudam a melhorar minhas habilidades de codificação. </p> 
             <P>Fique a vontade para entrar em contato comigo para tirar dúvidas ou fazer parcerias de trabalho.</p> 
+            <h2>Minhas Skills</h2>
+            <ul>
+                <li>HTML (com ênfase em semântica)</li>
+                <li>Design Responsivo (Mobile First)</li>
+                <li>CSS Preprocessor (Sass/Scss)</li>
+                <li>Css Framework (MaterializeCSS)</li>
+                <li>Css Methodologies (BEM, OOCSS, SMACSS)</li>
+                <li>Javascript (Manipulação de DOM, ES6)</li>
+                <li>Git</li>
+                <li>Scrum and Kanban</li>
+                <li>O que eu não sei, aprendo rápido =)</li>
+            </ul>
         </div>
     </section>
 

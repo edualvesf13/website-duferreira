@@ -263,6 +263,20 @@ p {
   color: #4d4d4d;
   display: block; }
 
+#about h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: normal; }
+
+#about ul {
+  margin: 15px 0px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  list-style-type: square; }
+  #about ul li {
+    margin: 0px 0px 15px 15px; }
+
 @media (min-width: 1000px) {
   #about .container {
     padding: 0px 150px; } }
