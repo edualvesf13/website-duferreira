@@ -69,11 +69,13 @@
             <h1>Sobre mim</h1>
 
             <span>Olá! </span>
-            <p>Eu me chamo Eduardo Ferreira. Sou estudante de Sistemas de Informação e instrutor de tecnologia em cursos profissionalizantes no Rio de Janeiro com mais de 8 anos de experiência.</p>
-            <p>No último ano percebi que era a hora de começar a aprender coisas novas e aumentar o meu conhecimento. Dessa forma, comecei a aprofundar meus conhecimentos em desenvolvimento web. Primeiramente, comecei a aprender HTML5 e CSS3. Atualmente, venho me aprimorando em Javascript para começar a aprender React.js e React-Native.</p> 
+            <p>Eu me chamo Eduardo Ferreira. Sou instrutor de tecnologia em cursos profissionalizantes no Rio de Janeiro com mais de 8 anos de experiência, já passei por empresas como <a href="https://www.microlins.com.br/">Microlins</a> e <a href="https://www.cursoswinners.com.br/">Winners</a>. </p>
 
-            <p>Criei este site para compartilhar informações com iniciantes e pessoas interessadas em tecnologia. Aqui você pode encontrar alguns recursos que me ajudam a melhorar minhas habilidades de codificação. </p> 
-            <P>Fique a vontade para entrar em contato comigo para tirar dúvidas ou fazer parcerias de trabalho.</p> 
+            <p>No último ano percebi que era a hora de começar a aprender coisas novas e aumentar o meu conhecimento. Dessa forma, mergulhei de cabeça no mundo do desenvolvimento web. Primeiramente, comecei a aprender HTML5 e CSS3. Atualmente, venho me aprimorando em Javascript para começar a aprender React.js e React-Native. </p> 
+
+            <p>Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre, gosto de aprender e ensinar sobre alguma coisa que aprendi. </p> 
+            
+            <p>Criei este site para compartilhar minhas informações pessoais e meus trabalhos feitos. Fique a vontade para entrar em contato comigo para tirar dúvidas ou fazer parcerias de trabalho.</p> 
             <h2>Minhas Skills</h2>
             <ul>
                 <li>HTML (com ênfase em semântica)</li>
