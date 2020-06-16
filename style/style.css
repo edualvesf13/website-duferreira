@@ -302,17 +302,20 @@ p {
     margin-bottom: 15px; }
 
 .portfolio__card--wrapper {
-  display: block;
-  margin-top: 20px; }
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; }
 
 .portfolio__card {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 290px;
   max-width: 350px;
   height: 450px;
-  margin-top: 20px;
   background-color: #fff;
   border: 1px solid #4d4d4d;
-  padding: 10px;
-  margin: 0 auto; }
+  padding: 10px; }
 
 .portfolio__card:hover {
   outline: 3px solid #e79523;
@@ -336,17 +339,7 @@ p {
   color: rgba(0, 0, 0, 0.9); }
 
 #portfolio p {
-  font-size: 1.5rem; }
-
-@media (min-width: 602px) and (max-width: 993px) {
-  .portfolio__card--wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
-  .portfolio__card {
-    flex: 1 1 270px;
-    margin: 10px; } }
+  font-size: 1.1rem; }
 
 @media (min-width: 1000px) {
   #portfolio .container {

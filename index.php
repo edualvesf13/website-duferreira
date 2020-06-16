@@ -98,13 +98,24 @@
             <div class="portfolio__card--wrapper">
                 <div class="portfolio__card">
                     <div class="porfolio__card--img">
-                        <a href="http://edualvesf13.000webhostapp.com/MySite/" target="blank">
+                        <a href="#">
                             <img src="./img/edualvesf13.png" alt="site pessoal">
                         </a>
                     </div>
                     <span class="time">2020</span>
                     <h2>duferreira.com</h2>
-                    <p>My personal website</p>
+                    <p>Meu site pessoal feito com HTML, SCSS e Javascript.  </p>
+                </div>
+
+                <div class="portfolio__card">
+                    <div class="porfolio__card--img">
+                        <a href="https://edualvesf13.github.io/pousada-paraiso-seropedica/" target="blank">
+                            <img src="./img/pousada-paraiso.png" alt="Pousada Paraiso Seropédica">
+                        </a>
+                    </div>
+                    <span class="time">2020</span>
+                    <h2>Pousada Paraíso</h2>
+                    <p>Site OnePage feito com MaterializeCSS e JQuery.</p>
                 </div>
             </div>
         </div>
