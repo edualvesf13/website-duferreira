@@ -246,6 +246,9 @@
             </div>
         </div>
     </section>
+    <footer id="footer">
+        <p>Copyright © 2020 DuFerreira</p>
+    </footer>
     <script src="./js/scripts.js"></script>
 <?php        
     if(isset($_GET['status'])):

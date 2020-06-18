@@ -565,3 +565,15 @@ p {
     background: url(../img/textura2.png); }
   .form-contact {
     margin-top: 0px; } }
+
+#footer {
+  background-color: #131313;
+  color: #555555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px 30px 0px; }
+
+#footer p {
+  font-size: 0.9rem; }
