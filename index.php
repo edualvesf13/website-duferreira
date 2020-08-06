@@ -117,6 +117,17 @@
                     <h2>Pousada Paraíso</h2>
                     <p>Site OnePage feito com MaterializeCSS e JQuery.</p>
                 </div>
+
+                <div class="portfolio__card">
+                    <div class="porfolio__card--img">
+                        <a href="https://edualvesf13.github.io/projeto-fashion/index.html" target="blank">
+                            <img src="https://github.com/edualvesf13/projeto-fashion/raw/master/layout_final.jpg" alt="Projeto Fashion">
+                        </a>
+                    </div>
+                    <span class="time">2020</span>
+                    <h2>Projeto Fashion</h2>
+                    <p>Site OnePage feito com HTML/CSS e JQuery.</p>
+                </div>
             </div>
         </div>
     </section>
